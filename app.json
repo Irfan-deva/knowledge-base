@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "knowledge-base",
+    "slug": "knowledge-base",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "enableDangerousExperimentalLeanBuilds":true
+      },
+      "package": "com.irfandeva.knowledgebase"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b768b72b-3c95-4c3d-8b8e-3fd1fd24505c"
+      }
+    }
+  }
+}
